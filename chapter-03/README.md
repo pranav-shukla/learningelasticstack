@@ -11,7 +11,8 @@
 5. Ensure that the index amazon_products is created as per the instructions given in chapter 3.
 6. Run logstash from command line, using the following commands
 
+```shell
 cd /usr/share/logstash
 bin/logstash -f files/logstash_products.conf
-
+```
 
