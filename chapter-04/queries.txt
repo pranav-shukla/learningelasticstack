@@ -1,4 +1,4 @@
-GET /bigginsight/usageReport/_search
+GET /bigginsight/_search
 {
   "query": {
     "match_all": {}
@@ -98,7 +98,7 @@ GET bigginsight/_search
 }
 
 
-GET /bigginsight/usageReport/_search
+GET /bigginsight/_search
 {
   "aggs": {                           
     "byCategory": {                   
@@ -111,7 +111,7 @@ GET /bigginsight/usageReport/_search
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "aggs": {
     "byApplication": {
@@ -123,7 +123,7 @@ GET /bigginsight/usageReport/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "aggs": {
     "byApplication": {
@@ -182,7 +182,7 @@ POST /bigginsight/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "query": {
     "term": {
@@ -199,7 +199,7 @@ GET /bigginsight/usageReport/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "query": {
     "bool": {
@@ -219,7 +219,7 @@ GET /bigginsight/usageReport/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "query": {                                      
     "bool": {
@@ -244,7 +244,7 @@ GET /bigginsight/usageReport/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "query": {                                                  
     "bool": {
@@ -309,7 +309,7 @@ GET bigginsight/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0       
+GET /bigginsight/_search?size=0       
 {
   "aggs": {
     "counts_over_time": {
@@ -322,7 +322,7 @@ GET /bigginsight/usageReport/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "aggs": {
     "counts_over_time": {
@@ -336,7 +336,7 @@ GET /bigginsight/usageReport/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "query": { "term": {"customer": "Linkedin"} },
   "aggs": {
@@ -356,7 +356,7 @@ GET /bigginsight/usageReport/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "query": {
     "bool": {
@@ -384,7 +384,7 @@ GET /bigginsight/usageReport/_search?size=0
 
 
 
-GET bigginsight/usageReport/_search?size=0
+GET bigginsight/_search?size=0
 {
   "aggs": {
     "within_radius": {
@@ -398,7 +398,7 @@ GET bigginsight/usageReport/_search?size=0
 }
 
 
-GET bigginsight/usageReport/_search?size=0
+GET bigginsight/_search?size=0
 {
   "aggs": {
     "within_radius": {
@@ -412,7 +412,7 @@ GET bigginsight/usageReport/_search?size=0
 }
 
 
-GET bigginsight/usageReport/_search?size=0
+GET bigginsight/_search?size=0
 {
   "aggs": {
     "geo_hash": {
@@ -425,7 +425,7 @@ GET bigginsight/usageReport/_search?size=0
 }
 
 
-GET /bigginsight/usageReport/_search?size=0
+GET /bigginsight/_search?size=0
 {
   "query": {
     "bool": {
